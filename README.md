@@ -62,3 +62,5 @@ Authentication & Authorization
 - Implemented RBAC (Role-Based Access Control)
 - Designed scalable backend architecture
 - Handled many-to-many relationships (Enrollment system)
+- Helmet sets secure HTTP headers
+- Rate limiting: 100 requests/15min globally, 20 requests/15min on auth routes
