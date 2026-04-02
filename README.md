@@ -45,31 +45,20 @@ Authentication & Authorization
 - View enrolled subjects with teacher info
 
 ## Usage Flow
--Create an admin account manually
-
---Login as admin
-
--Create:
-
---Teachers
-
---Students
-
--Create subjects and assign teachers
-
--Enroll students in subjects
-
--Login as:
-
---Teacher → view students
-
---Student → view subjects
+- Create an admin account manually
+-- Login as admin
+- Create:
+-- Teachers
+-- Students
+- Create subjects and assign teachers
+- Enroll students in subjects
+- Login as:
+-- Teacher → view students
+-- Student → view subjects
 
 
 ## Key Learnings
 
--Implemented RBAC (Role-Based Access Control)
-
--Designed scalable backend architecture
-
--Handled many-to-many relationships (Enrollment system)
+- Implemented RBAC (Role-Based Access Control)
+- Designed scalable backend architecture
+- Handled many-to-many relationships (Enrollment system)
