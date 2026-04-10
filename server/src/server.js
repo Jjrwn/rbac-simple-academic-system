@@ -18,12 +18,11 @@ app.use(helmet());
 
 const allowedOrigins = process.env.CLIENT_URL
   ? process.env.CLIENT_URL.split(",")
-  : ["http://localhost:5173", "https://rbac-simple-academic-system.vercel.app"];
+  : ["https://rbac-simple-academic-system.vercel.app"];
 
 app.use(
   cors({
     origin: function (origin, callback) {
-      // allow requests like Postman (no origin)
       if (!origin) return callback(null, true);
 
       if (allowedOrigins.includes(origin)) {
