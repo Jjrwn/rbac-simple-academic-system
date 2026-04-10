@@ -16,24 +16,12 @@ const app = express();
 
 app.use(helmet());
 
-const allowedOrigins = process.env.CLIENT_URL
-  ? process.env.CLIENT_URL.split(",")
-  : ["https://rbac-simple-academic-system.vercel.app"];
-
 app.use(
   cors({
-    origin: function (origin, callback) {
-      if (!origin) return callback(null, true);
-
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      } else {
-        return callback(new Error("CORS not allowed: " + origin));
-      }
-    },
+    origin:
+      process.env.CLIENT_URL ||
+      "https://rbac-simple-academic-system.vercel.app",
     credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-    allowedHeaders: ["Content-Type", "Authorization"],
   }),
 );
 
