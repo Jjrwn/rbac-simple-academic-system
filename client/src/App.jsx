@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ContextProvider from "./context/ContextProvider";
-import { AuthContext } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import LoginPage from "./pages/auth/LoginPage";
 import StudentDashboard from "./pages/student/StudentDashboard";

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Loader from "../../components/Loader";
-import API from "../../services/api";
+import API from "../../services/API";
 
 export default function SubjectStudents() {
   const { subjectId } = useParams();

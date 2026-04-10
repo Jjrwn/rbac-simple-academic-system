@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import Navbar from "../../components/Navbar";
 import Loader from "../../components/Loader";
-import API from "../../services/api";
+import API from "../../services/API";
 
 export default function StudentDashboard() {
   const { user } = useContext(AuthContext);

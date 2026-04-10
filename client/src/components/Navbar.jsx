@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
-import ContextProvider from "../context/ContextProvider";
 
 export default function Navbar() {
   const { user, logoutUser } = useContext(AuthContext);

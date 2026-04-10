@@ -4,7 +4,7 @@ import { AuthContext } from "../../context/AuthContext";
 import ContextProvider from "../../context/ContextProvider";
 import Navbar from "../../components/Navbar";
 import Loader from "../../components/Loader";
-import API from "../../services/api";
+import API from "../../services/API";
 
 export default function AdminDashboard() {
   const { user } = useContext(AuthContext);

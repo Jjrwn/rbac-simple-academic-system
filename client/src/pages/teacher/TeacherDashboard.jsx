@@ -3,7 +3,7 @@ import { AuthContext } from "../../context/AuthContext";
 import { Link } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import Loader from "../../components/Loader";
-import API from "../../services/api";
+import API from "../../services/API";
 
 export default function TeacherDashboard() {
   const { user } = useContext(AuthContext);
