@@ -11,7 +11,7 @@ Password: 12345678
 ⚠️ This is a demo account created for testing purposes only.
 
 ## Live demo
-rbac-simple-academic-system.vercel.app
+[rbac-simple-academic-system.vercel.app](https://rbac-simple-academic-system.vercel.app/)
 
 ## Tech Stack
   **Backend**
