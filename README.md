@@ -10,6 +10,9 @@ Password: 12345678
 
 ⚠️ This is a demo account created for testing purposes only.
 
+## Live demo
+https://rbac-simple-academic-system.vercel.app/login
+
 ## Tech Stack
   **Backend**
 - Node.js + Express.js
